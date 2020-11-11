@@ -1,4 +1,4 @@
 const pirmasSkaicius = 7;
 const antrasSkaicius = 3;
 
-const sum = pirmasSkaicius + antrasSkaicius
+const sum = pirmasSkaicius + antrasSkaicius;

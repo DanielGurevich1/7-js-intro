@@ -40,4 +40,31 @@ const sakinys3 = heroName+' ' + heroLastname +' '+ (2020 - birth)+' ' + 'years o
 
 console.log(sakinys3);
 
-console.clear()
+const pirmasSkaiciuss = 7;
+const antrasSkaiciuss = 3;
+
+const suma1 = pirmasSkaiciuss + antrasSkaiciuss;
+console.log(suma1);
+
+
+
+const pavadinimas = 'UAB Jerulita'
+const adresas = 'Fabijoniskiu 5c'
+console.log(pavadinimas);
+console.log(adresas);
+console.log(124950478);
+const bank = "SEB"
+console.log(bank);
+
+const ktd = 'Kelioniu trukme dienomis'
+console.log(ktd);
+const JerulitaturuTrukme =[1, 2, 4, 7, 9, 11, 14, 21];
+console.log(JerulitaturuTrukme);
+
+console.log(JerulitaturuTrukme[8]);
+console.log(JerulitaturuTrukme[6]);
+console.log(JerulitaturuTrukme[7]);
+console.log(JerulitaturuTrukme[4]);
+console.log(JerulitaturuTrukme[3]);
+
+
