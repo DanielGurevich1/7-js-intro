@@ -31,3 +31,15 @@ if (akys === 'melynos') {
     } else { 
         console.log('ne melynakis' );}
          
+const akys1 = 'rudos';
+
+if (akys1 === 'melynos') {
+    console.log('grazios sirdies zmogus');
+    } else if (akys1 === 'zalios') { 
+        console.log('drasuoliai' );}
+        else if (akys1 === 'raudonos') { 
+            console.log('programuotojas' );
+        }
+            else {
+                console.log("ar tu turi akis?")
+            }
