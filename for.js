@@ -53,3 +53,48 @@ for (let i = 0; i < miestai.length; i++) {
    console.log(`Aplankaiu: ${miestai[i]}`)
     
 }
+
+console.log('----------')
+
+/* const abc = ['a', 'b', 'c', 'd', 'e', 'f'];
+
+console.log(abc);
+
+for (let i = abc.length - 1; i >= 0; i--); {
+    console.log(abc[i]);
+} */
+
+console.log('-------')
+
+const text = 'dodekahedronas'
+console.log(text);
+
+console.log(text.length);
+
+for (let i = 0; i < text.length; i++) {
+    console.log(text[i]);
+    
+}
+ console.log('-------')
+const text1 = 'abcdgjdef';
+console.log(text1.length);
+let atsakymas = '';
+for (let i1 = 1; i1 < text1.length; i1 = i1 + 2) {
+    const raide = text1[i1];
+    atsakymas = atsakymas + raide
+    console.log(raide);
+} 
+console.log(atsakymas);
+
+console.log('---')
+
+const zodis ='tomato';
+const step = 2;
+const firstletterposition = step -1;
+let rez = '';
+
+for (let index = firstletterposition; index < zodis.length; index = index + step) {
+    const raide = zodis[index];
+    rez = rez + raide;
+}
+console.log(rez);
