@@ -56,13 +56,11 @@ for (let i = 0; i < miestai.length; i++) {
 
 console.log('----------')
 
-/* const abc = ['a', 'b', 'c', 'd', 'e', 'f'];
+const abc = ['a', 'b', 'c', 'd', 'e', 'f'];
 
-console.log(abc);
-
-for (let i = abc.length - 1; i >= 0; i--); {
+for (let i = abc.length - 1; i >= 0; i--) {
     console.log(abc[i]);
-} */
+} 
 
 console.log('-------')
 
@@ -99,6 +97,3 @@ for (let index = firstletterposition; index < zodis.length; index = index + step
 }
 console.log(rez);
 
-function createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9]){
-  
-}
