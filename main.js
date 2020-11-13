@@ -61,10 +61,16 @@ console.log(ktd);
 const JerulitaturuTrukme =[1, 2, 4, 7, 9, 11, 14, 21];
 console.log(JerulitaturuTrukme);
 
+let suma3 = 0;
+
+suma = suma + JerulitaturuTrukme[0];
+
 console.log(JerulitaturuTrukme[8]);
 console.log(JerulitaturuTrukme[6]);
 console.log(JerulitaturuTrukme[7]);
 console.log(JerulitaturuTrukme[4]);
 console.log(JerulitaturuTrukme[3]);
 
-
+const qnt = JerulitaturuTrukme.length
+const avg = suma / kiekis;
+console.log(avg);
