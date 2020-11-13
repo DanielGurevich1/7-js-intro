@@ -98,3 +98,7 @@ for (let index = firstletterposition; index < zodis.length; index = index + step
     rez = rez + raide;
 }
 console.log(rez);
+
+function createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9]){
+  
+}
