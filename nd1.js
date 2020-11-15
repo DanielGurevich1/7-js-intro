@@ -65,3 +65,135 @@ console.log('red');
 if (c < d) {
     console.log('black');
 } 
+
+const accbal = 200;
+const trasfer = 201;
+
+if ( accbal > trasfer) {
+    console.log('transfer confirmed')
+} else {
+    console.log('your account has not enough funds')
+}
+// what cities can you visit from 'a' city in Lithuania
+console.log('---travel prog---')
+
+const city = 'Vilnius';
+
+if (city === 'Vilnius') {
+    console.log('you can visit Trakai too')
+} else { 
+    console.log('check other options');    
+}
+console.log('---travel prog one ---');
+
+const city1 = 'Kaunas';
+
+if (city1 === 'Kaunas') {
+    console.log('you can visit Rumsiskes too')
+} else if (city1 != 'Kaunas') {
+    console.log('you can visit Trakai too')
+    } else if (city1 >= 'Kaunas') {
+        console.log('you can visit Palanga too')
+    } else {'you are not in Lithuania'};
+        
+    console.log('---text length ---');
+   
+const text = 'Suderve';
+console.log(text);
+
+console.log(text.length);
+
+const text1 ='maisiagala';
+const text2 ='karvys';
+
+if (text.lenth > text1.length) {
+    console.log(true);
+} else if (text2.length < text1.length) {
+    console.log('red light');
+} else {console.log('Bingo!!!');}
+        
+console.log('isvesti saraso tipo kintamuju ilgius')
+// 
+console.log(meals);
+
+let l = meals.length;
+
+console.log(l);
+
+console.log('ciklo for panaudojimas');
+var array = [1, 2, 3, 4];
+var sum1 = array.reduce(function(a, b){return a + b;
+}, 0);
+    console.log(sum1);
+
+    console.log('Suskaičiuoti ką gausime susumavus skaičius intervale tarp (imtinai):');
+
+var sum2 = 0;
+var number = 1;
+while (number <= 50) {  
+  sum2 = sum2 + number;        // -- body
+  number++;             // -- updater
+}
+console.log('Sum is' + ' ' + sum2);
+
+var sum3 = 0;
+var number = 0;
+while (number <= 4) {
+    sum3 += number; number++;
+}
+
+console.log('b. atsakymas' + ' ' + sum3);
+
+var sum4 = 0;
+var number = 0;
+while (number <= 100) {
+    sum4 += number; number++;
+}
+
+console.log('c. atsakymas' + ' ' + sum4);
+
+var sum5 = 0;
+var number = 574;
+while (number <= 815) {
+    sum5 += number; number++;
+}
+console.log('d. atsakymas' + ' ' + sum5);
+
+const x = 0;
+const y = 6;
+
+var sum6 = 0;
+var number = [x];
+while (number <= [y]) {
+    sum6 += number; number++;
+}
+console.log('dinv. atsakymas' + ' ' + sum6);
+
+var sum7 = 0;
+var number = -50;
+while (number <= -50) {
+    sum7 += number; number++;
+}
+console.log('e. atsakymas' + ' ' + sum7);
+
+var sum8 = 0;
+var number = -70;
+while (number <= -30) {
+    sum8 += number; number++;
+}
+console.log('f. atsakymas' + ' ' + sum8);
+
+console.log('panaudojant ciklą perrašyti tekstinio tipo kintamųjų reikšmes iš kito galo'
+    ); 
+
+const letters = ['a', 'b', 'c', 'd', 'e', 'f']
+
+for (let index = letters.length; index >= 1; index++) {
+    console.log(letters[index]);
+    
+}
+
+
+
+
+

@@ -1,7 +1,7 @@
 const accountBalance = 200;
 const transfer = 200;
 
-if (accountBalance < transfer) {
+if (accountBalance <= transfer) {
     console.log('banko zinute: saskaitoje truksta pinigu.');
 }
 if (accountBalance >= transfer) {
