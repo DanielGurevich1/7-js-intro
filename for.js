@@ -1,6 +1,6 @@
-const kiek = 7;
+const kiek = 8;
 
-for (let i=3; i < kiek; i++) {
+for (let i=1; i < kiek; i++) {
     // logika
     console.log('labas rytas!', i);
 }
