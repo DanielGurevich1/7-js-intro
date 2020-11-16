@@ -23,7 +23,7 @@ function laipsnis(base, power){
     // isvedame rezultata i console
      // return base ** power;
      // return math.pow(base, power)
-} for (let i=0; i < power; i++){
+ for (let i=0; i < power; i++){
         rez = rez * base;
      }
      return rez;
