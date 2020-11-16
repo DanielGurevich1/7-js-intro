@@ -2,10 +2,10 @@
 // b.	8 - 31
 // c.	-18 - 18
 
-const nuo = 0;
-const iki  = 11; 
+const nuo = 8;
+const iki  = 31; 
 
-const dalyklis = 3; 
+const dalyklis = 5; 
 
 let kiekis = 0;
 
@@ -17,8 +17,4 @@ for (let i = nuo; i < iki; i++){
     }
     
 }
-
-
-
-
 console.log(`i.	Skaičių intervale tarp ${nuo} ir ${iki}, besidalijančių be liekanos iš ${dalyklis} yra ${kiekis} vienetai`)
