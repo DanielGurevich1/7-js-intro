@@ -1,3 +1,4 @@
+/*
 const word1 = 'jonathan';
 
 function reverse(word1) {
@@ -5,4 +6,11 @@ function reverse(word1) {
     for (var i = word1.length -1; i >= 0; i--) {
         reversed += word1[i];
     }
-    return reversed;
+    return reversed */
+
+    var word =["a", "b", 'c', 'd', 'e', 'f'];
+console.log(word.reverse());
+
+
+
+    
