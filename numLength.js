@@ -1,20 +1,21 @@
 function numLength(num) {
 // input validation
 if (typeof num !== 'number') {
-    return 'pateikta netinkamo tipo reiksme'
+    return 'pateikta netinkamo tipo reiksme';
 }
 if ('' + num === 'NaN') {
     return 'pateikta netinkamo tipo reiksme'}
 
-   
-
+    if ('' + num === Infinity) {
+        return 'pateikta netinkamo tipo reiksme.';
+    }
 
 // logic
-let size = textNum.length;
-const textNum = '' + num;
 
- if (num < 0){
-        console.log('radau minusa')
+const textNum = '' + num;
+let size = textNum.length;
+
+ if (num < 0) {
         size--;
     }
     if (num % 1 !== 0) {
@@ -26,7 +27,7 @@ return size;
 
 console.log(numLength(5));	
 console.log(numLength(781));
-console.log(numLength(37060123456));
+console.log(numLength(37060123456.1));
 console.log(numLength(3,14));
 console.log(numLength(-37060123456));
 console.log(numLength(true ));
