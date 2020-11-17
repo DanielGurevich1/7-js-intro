@@ -6,15 +6,20 @@ if (typeof num !== 'number') {
 if ('' + num === 'NaN') {
     return 'pateikta netinkamo tipo reiksme'}
 
-    if (num < 0){
-        return 'radau minusa'
-    }
+   
 
-    
+
 // logic
+let size = textNum.length;
 const textNum = '' + num;
-const size = textNum.length;
 
+ if (num < 0){
+        console.log('radau minusa')
+        size--;
+    }
+    if (num % 1 !== 0) {
+        size--;
+    }
 // return
 return size;
 }
