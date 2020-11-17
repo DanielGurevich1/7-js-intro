@@ -5,6 +5,7 @@ function tusciaFunkcija() {
 console.log(tusciaFunkcija());
 
 function multiply(a, b) {
+    // input validation
     if (typeof a !== 'number') {
 console.log('error: pirmoji reiksme yra ne ..')
     }
@@ -12,7 +13,11 @@ console.log('error: pirmoji reiksme yra ne ..')
     if (typeof b !== 'number') {
         console.log('error: antroji reiksme yra ne ..')
     }
-    return a * b;
+// function logic
+const rez = a * b;
+
+// function rezult
+    return rez;
 }
 
 console.log(multiply(2, 2));
