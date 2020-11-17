@@ -186,14 +186,41 @@ console.log('f. atsakymas' + ' ' + sum8);
 console.log('panaudojant ciklą perrašyti tekstinio tipo kintamųjų reikšmes iš kito galo'
     ); 
 
-const letters = ['a', 'b', 'c', 'd', 'e', 'f']
+    var word =["a", "b", 'c', 'd', 'e', 'f'];
+    console.log(word.reverse());
 
-for (let index = letters.length; index >= 1; index++) {
-    console.log(letters[index]);
+   /*  console.log('---ciklo 3 pratymas---')
+const i9 = 3;
+var ats3 = 0;
+var number = 0;
+while (number <= 11)
+for (i = 0; ats3 = number/i9, i <= number.length, i++;) {
     
 }
+console.log('i.	Skaičių intervale tarp 0 ir 11, besidalijančių be liekanos iš ${i9} yra $[ats3] vienetai.') */
 
 
+console.log('klaseje namu darbai')
 
+const nuo = 0;
+const iki = 100;
 
+let sum9 = 0; 
 
+for (let i=0; i <= iki; i++) {
+    sum9 = sum9 + i;
+    console.log(i, '=>', sum9);
+}
+
+console.log(`skaiciu intervale tarp ${nuo} ir ${iki} suma yra ${sum9}`);
+
+let sum = 0;
+
+if( nuo < iki) {
+for (let i=0; i <= iki; i++) {
+    sum9 = sum9 + i;
+    console.log(i, '=>', sum9);}
+} else { 
+        for (let i= iki; i<= nuo; i++)
+        sum = sum + i
+}
