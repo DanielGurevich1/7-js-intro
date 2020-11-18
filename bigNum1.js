@@ -1,53 +1,56 @@
 function bigNum(list) {
-    // inp validation
+    // input validation
     if (typeof list !== 'object') {
-        return 'netinkamas skaicius';
+        return 'Netinkamas tipas';
     }
+
     const size = list.length;
-    if (size === 0)  {
-        return 'sarasas yra tuscias.'
+
+    if (size === 0) {
+        return 'Sarasas yra tuscias.'
     }
-    
-    
+
     // logic
     let biggestNumber = -Infinity;
 
     for (let i = 0; i < size; i++) {
         const num = list[i];
 
-    // saraso elemnto validacija
-
+        // saraso elemento validacija
         if (typeof num !== 'number') {
-        continue; 
-         }
+            continue;
+        }
 
-        // logika 
-
+        // logika
         if (num > biggestNumber) {
             biggestNumber = num;
         }
     }
 
-        // post logic validation 
+    // post logic validation
+    if (biggestNumber === -Infinity) {
+        return 'Sarase nerastas nei vienas normalus skaicius.';
+    }
 
-        if (biggestNumber === -Infinity) {
-            return 'Sarase nerastas nei vienas normalus skaicius.';
-        }
-    // return 
-
+    // return
     return biggestNumber;
-
 }
 
-//console.log(bigNum([1, 2, 4, 5]), '->', 5);
-//console.log(bigNum([]), '->', 0);
-//console.log(bigNum('tuscias')); 
+// demo funkcija, skirta testams sudaryti
+function sum(a, b) {
+    return a + b;
+}
+
 console.log(bigNum('pomidoras'));
 console.log(bigNum(585));
 console.log(bigNum(true));
 console.log(bigNum(false));
 console.log(bigNum([]));
 console.log(bigNum([-Infinity, NaN, true, false, [], [8], [5, -9], 'ads', undefined]));
+console.log(bigNum(sum));
+console.log(bigNum([sum]));
+console.log(bigNum({}));
+console.log(bigNum([{}, {}, {}]));
 
 console.log(bigNum([1]), '->', 1);
 console.log(bigNum([77]), '->', 77);
