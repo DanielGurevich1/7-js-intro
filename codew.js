@@ -10,10 +10,12 @@ function litres(time) {
         return 'error: 0 liters'
       }
     
-    // logic 
-   
-    return Math.floor(time*0.5);
+        // logic 
+        const time = i;
+        var rez = Math.floor(i * 0.5);
+        
+     return Math.floor(i*0.5);
 }
-const time = 4;
-const rez = Math.floor(time*0.5);
+
 console.log(rez);
+
